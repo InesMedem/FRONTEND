@@ -2,10 +2,6 @@ import axios from 'axios';
 
 import { updateToken } from '../utils/updateToken';
 
-/**
- * Tenemos que cambiar la URL
- *
- */
 export const extraConfig = () => {
   return axios.create({
     baseURL: 'https://xsolarx.vercel.app/',
